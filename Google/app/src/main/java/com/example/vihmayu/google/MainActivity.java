@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity {
                             updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
+
+                            //TODO Now you are getting error here. Solve it.
+
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
                             Toast.makeText(MainActivity.this,"You Are Not Able To Login",Toast.LENGTH_LONG).show();
                             // updateUI(null);
